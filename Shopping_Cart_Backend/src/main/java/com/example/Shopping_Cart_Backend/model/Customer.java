@@ -1,7 +1,7 @@
 package com.example.Shopping_Cart_Backend.model;
 
 
-import com.example.FlipCommerce.Enum.Gender;
+import com.example.Shopping_Cart_Backend.Enum.Gender;
 import jakarta.persistence.*;
 import lombok.*;
 import lombok.experimental.FieldDefaults;

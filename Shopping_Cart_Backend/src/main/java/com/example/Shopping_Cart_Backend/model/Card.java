@@ -1,6 +1,6 @@
 package com.example.Shopping_Cart_Backend.model;
 
-import com.example.FlipCommerce.Enum.CardType;
+import com.example.Shopping_Cart_Backend.Enum.CardType;
 import jakarta.persistence.*;
 import lombok.*;
 import lombok.experimental.FieldDefaults;

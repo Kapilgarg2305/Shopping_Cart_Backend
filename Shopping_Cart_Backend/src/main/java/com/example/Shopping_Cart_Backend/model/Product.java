@@ -1,7 +1,7 @@
 package com.example.Shopping_Cart_Backend.model;
 
-import com.example.FlipCommerce.Enum.Category;
-import com.example.FlipCommerce.Enum.ProductStatus;
+import com.example.Shopping_Cart_Backend.Enum.Category;
+import com.example.Shopping_Cart_Backend.Enum.ProductStatus;
 import jakarta.persistence.*;
 import lombok.*;
 import lombok.experimental.FieldDefaults;
