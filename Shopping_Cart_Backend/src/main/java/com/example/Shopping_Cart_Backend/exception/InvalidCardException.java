@@ -1,0 +1,8 @@
+package com.example.Shopping_Cart_Backend.exception;
+
+public class InvalidCardException extends Exception{
+
+    public InvalidCardException(String message){
+        super(message);
+    }
+}
