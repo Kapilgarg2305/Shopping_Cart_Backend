@@ -28,10 +28,6 @@ public class CustomerController {
         return new ResponseEntity(customerResponseDto, HttpStatus.CREATED);
     }
 
-    // get all female customers between age 20-30
 
-    // get all male customers less than 45
-
-    // customers who have ordered atleast 'k' orders
 
 }
