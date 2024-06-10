@@ -16,7 +16,7 @@ public class CustomerController {
     CustomerService customerService;
 
     @GetMapping("/kaka")
-        public String esehi(){
+        public String tochk(){
             return "done";
         }
 
