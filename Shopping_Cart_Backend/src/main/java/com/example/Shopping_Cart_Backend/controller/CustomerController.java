@@ -15,10 +15,7 @@ public class CustomerController {
     @Autowired
     CustomerService customerService;
 
-    @GetMapping("/kaka")
-        public String tochk(){
-            return "done";
-        }
+
 
 
     @PostMapping("/add")
@@ -28,6 +25,10 @@ public class CustomerController {
         return new ResponseEntity(customerResponseDto, HttpStatus.CREATED);
     }
 
+    @GetMapping("/deployed")
+    public String tochk(){
+        return "done";
+    }
 
 
 }
